@@ -1,0 +1,20 @@
+.flight {
+    width: 150px;
+    height: 50px;
+    background: lightgray;
+    padding: 1rem;
+    display: inline-block;
+    margin: 1rem;
+    border: 3px solid #8adc8a;
+    &.disabled {
+        border: 3px solid #da1f1f;
+        cursor: not-allowed;
+    }
+
+    cursor: pointer;
+    &-selector-wrapper {
+        flex: 2 0 60vw;
+        height: 100%;
+        overflow-y: scroll;
+    }
+}

@@ -1,0 +1,14 @@
+.as-outer-wrapper {
+    border: 1px solid black;
+    width: 100%;
+    padding: 2rem;
+}
+
+.as-inner-wrapper {
+    display: grid;
+    grid-template-columns: 30vw 55vw;
+    grid-template-rows: 20vh 50vh;
+    height: 80vh;
+    overflow: hidden;
+    grid-gap: 2rem;
+}

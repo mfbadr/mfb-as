@@ -1,0 +1,9 @@
+.schedule-wrapper {
+    flex:  1 0 20vw;
+    overflow-y: auto;
+    .flight {
+        width: 80%;
+        cursor: auto;
+        border-color: black;
+    }
+}

@@ -1,0 +1,21 @@
+.chart-wrapper {
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: lightgray;
+    text-align: left;
+    position: relative;
+    .chart-section {
+        display: inline-block;
+        height: 50px;
+        position: absolute;
+        &.active {
+            background-color: green;
+        }
+        &.idle {
+            // height: 50px;
+            background-color: purple;
+        }
+    }
+}
