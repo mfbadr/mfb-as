@@ -6,7 +6,7 @@ function Schedule({schedule}) {
             <div className="schedule-wrapper">
                 <h3>Schedule</h3>
                 <h4>
-                    Click a eligible flight to begin building the schedule
+                    Click an eligible flight to begin building the schedule
                 </h4>    
             </div>
         )
