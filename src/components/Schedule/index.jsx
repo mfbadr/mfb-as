@@ -1,9 +1,19 @@
 import './style.scss';
 
 function Schedule({schedule}) {
+    if(schedule.length === 0) {
+        return (
+            <div className="schedule-wrapper">
+                <h3>Schedule</h3>
+                <h4>
+                    Click a eligible flight to begin building the schedule
+                </h4>    
+            </div>
+        )
+    }
     return (
         <div className={'schedule-wrapper'}>
-            <h3>Schedule</h3>
+       
             
             {schedule.map((scheduleItem) => {
 
